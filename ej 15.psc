@@ -14,6 +14,8 @@ Algoritmo sin_titulo
 		FinPara
 	FinPara
 	
+	Limpiar Pantalla
+	
 	para fila = 1 hasta numFilas con paso 1 Hacer
 		Para  columna = 1 Hasta numColumn con paso 1 Hacer
 			Escribir Sin Saltar matriz[fila, columna], " "
