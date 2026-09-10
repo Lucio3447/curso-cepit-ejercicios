@@ -18,7 +18,7 @@ Algoritmo sin_titulo
 	
 	para fila = 1 hasta numFilas con paso 1 Hacer
 		Para  columna = 1 Hasta numColumn con paso 1 Hacer
-			Escribir Sin Saltar matriz[fila, columna], " "
+			Escribir Sin Saltar "[", fila, ",", columna, "]: ", matriz[fila, columna], " "
 		FinPara
 		Escribir " "
 	FinPara
