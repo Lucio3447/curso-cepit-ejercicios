@@ -3,7 +3,7 @@ Funcion ordenarVector(vector, tamanio) //wikipedia
 	Para ordenar = 1 Hasta tamanio Con Paso 1 Hacer
 		Para numComparado = 1 Hasta tamanio - ordenar Con Paso 1 Hacer
 			si vector[numComparado] > vector[numComparado+1] entonces // si el numero comparado es mayor que el siguiente
-				elMayor = vector[numComparado]
+				elMayor = vector[numComparado] 					// guardar el valor del numero mayor
 				vector[numComparado] = vector[numComparado+1]  // intercambiar los numeros
 				vector[numComparado+1] = elMayor
 			fin si
