@@ -1,4 +1,4 @@
-Funcion ordenarVector(vector, tamanio) //wikipedia
+Funcion ordenarVector(vector, tamanio) //wikipedia  (MENOR A MAYOR)
 	Definir ordenar, numComparado, elMayor Como Entero
 	Para ordenar = 1 Hasta tamanio Con Paso 1 Hacer
 		Para numComparado = 1 Hasta tamanio - ordenar Con Paso 1 Hacer
@@ -11,11 +11,11 @@ Funcion ordenarVector(vector, tamanio) //wikipedia
 	finPara
 FinFuncion
 
-Funcion ordenarVector2(vector, tamanio)
+Funcion ordenarVector2(vector, tamanio) //pizarra (MAYOR A MENOR)
 	Definir i, j, aux Como Entero
 	Para i = 1 Hasta tamanio Con Paso 1 Hacer
 		Para j = i+1 Hasta tamanio Con Paso 1 Hacer
-			si vector[i] > vector[j] entonces
+			si vector[i] < vector[j] entonces
 				aux = vector[i]
 				vector[i] = vector[j] 
 				vector[j] = aux
