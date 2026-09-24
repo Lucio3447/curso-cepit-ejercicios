@@ -1,5 +1,5 @@
 Algoritmo sin_titulo
-	Definir vectorNombres, nombreVector Como Caracter
+	Definir vectorNombres, nombreVector Como Caracter//fg
 	
 	Dimensionar vectorNombres(10)
 	
@@ -18,6 +18,5 @@ Algoritmo sin_titulo
 	nombreVector = nombreVector + '}'
 	
 	Escribir nombreVector
-	
 	
 FinAlgoritmo
