@@ -1,2 +1,6 @@
 # curso-cepit-ejercicios
-pseint
+![Imagen](./res/pseintlogo.png "logo") 
+![Imagen](./res/pseintlogo.png "logo") 
+![Imagen](./res/pseintlogo.png "logo") 
+---
+* ejercicios pseint curso cepit
